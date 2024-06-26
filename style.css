@@ -1,0 +1,33 @@
+html{
+    background-color:rgba(122, 191,191, .5) ;
+}
+header nav ul, footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li, footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.menu button {
+    background-color: #007d7b;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu button img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
